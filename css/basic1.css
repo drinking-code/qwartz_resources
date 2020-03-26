@@ -73,6 +73,7 @@ input[type=number]::-webkit-inner-spin-button {
     height: 32px;
     width: 13px;
     background: rgba(var(--color), .1) url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 21"><line fill="none" stroke="rgba(200,200,200,.3)" stroke-miterlimit="10" x1="0" y1="10.5" x2="10" y2="10.5"/><polyline fill="none" stroke="rgba(200,200,200,.6)" stroke-linecap="round" stroke-linejoin="round" points="3,6 5,4 7,6 "/><polyline fill="none" stroke="rgba(200,200,200,.6)" stroke-linecap="round" stroke-linejoin="round" points="7,15 5,17 3,15 "/></svg>') center no-repeat;
+    opacity: 1; /* chromium */
     border-radius: 0 5px 5px 0;
     margin: 0 -1px 0 0;
     cursor: pointer;
