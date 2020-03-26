@@ -39,6 +39,38 @@ input[type=range]::-webkit-slider-thumb {
     cursor: pointer;
 }
 
+input[type=number] {
+    height: 30px;
+    width: 50px;
+
+    padding-left: 7px;
+
+    -webkit-appearance: none;
+    background: rgb(var(--background));
+    border: 2px solid rgba(var(--color), .5);
+    border-radius: 7px;
+
+    color: rgba(var(--color), .9);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    height: 32px;
+    width: 13px;
+    background: rgba(var(--color), .1) url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 21"><line fill="none" stroke="rgba(200,200,200,.3)" stroke-miterlimit="10" x1="0" y1="10.5" x2="10" y2="10.5"/><polyline fill="none" stroke="rgba(200,200,200,.6)" stroke-linecap="round" stroke-linejoin="round" points="3,6 5,4 7,6 "/><polyline fill="none" stroke="rgba(200,200,200,.6)" stroke-linecap="round" stroke-linejoin="round" points="7,15 5,17 3,15 "/></svg>') center no-repeat;
+    border-radius: 0 5px 5px 0;
+    margin: 0 -1px 0 0;
+    cursor: pointer;
+}
+
+input[type=number]:focus {
+    border: 2px solid rgba(var(--color), .8);
+    outline: none;
+}
+
 .icon {
     height: 24px;
     width: 24px;
